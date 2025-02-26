@@ -11,9 +11,9 @@ def main() -> None:
                 print(exit_message)
                 exit()
 
-            reversed: str = user_input[::-1]
+            reverse: str = user_input[::-1]
 
-            print(f'The reverse of {user_input} is {reversed}')
+            print(f'The reverse of {user_input} is {reverse}')
         except KeyboardInterrupt:
             print(exit_message)
             exit()
